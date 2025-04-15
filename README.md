@@ -8,10 +8,6 @@ A powerful Laravel package to protect your application using IP-based, country-b
 
 > Created with ❤️ by [Neeraj Saini](https://www.haxneeraj.com) _(opens in new tab)_
 
-[![GitHub version](https://badge.fury.io/gh/haxneeraj/laraguard-ip.svg)](https://badge.fury.io/gh/haxneeraj/laraguard-ip)
-[![GitHub license](https://img.shields.io/github/license/haxneeraj/laraguard-ip)](https://github.com/haxneeraj/laraguard-ip/blob/main/LICENSE)
-[![GitHub downloads](https://img.shields.io/github/downloads/haxneeraj/laraguard-ip/total)](https://github.com/haxneeraj/laraguard-ip/releases)
-
 ---
 
 ## ✨ Features
