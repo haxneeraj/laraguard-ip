@@ -1,0 +1,56 @@
+{
+    "name": "haxneeraj/laraguard-ip",
+    "description": "A Laravel middleware to guard your application via IP and country-level control.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "Haxneeraj\\LaraguardIp\\": "src/"
+      }
+    },
+    "authors": [
+      {
+        "name": "Neeraj Saini",
+        "email": "hax-neeraj@outlook.com"
+      }
+    ],
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Haxneeraj\\LaraguardIp\\Providers\\LaraguardIpServiceProvider"
+        ]
+      }
+    },
+    "require": {
+      "php": ">=8.0",
+      "ext-json": "*"
+    },
+    "require-dev": {
+      "illuminate/support": "^9.0 || ^10.0 || ^11.0 || ^12.0",
+      "guzzlehttp/psr7": "^2.0",
+      "guzzlehttp/guzzle": "^7.0",
+      "illuminate/http": "^9.0 || ^10.0 || ^11.0 || ^12.0",
+      "illuminate/console": "^9.0 || ^10.0 || ^11.0 || ^12.0",
+      "illuminate/database": "^9.0 || ^10.0 || ^11.0 || ^12.0",
+      "symfony/http-foundation": "^5.0 || ^6.0 || ^7.0",
+  
+      "mockery/mockery": "^1.7",
+      "orchestra/testbench": "^8.18",
+      "phpunit/phpunit": "^10.5",
+      "larastan/larastan": "^2.9",
+      "laravel/pint": "^1.16"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+      "test": "php vendor/bin/pint && php vendor/bin/phpunit"
+    },
+    "suggest": {
+      "illuminate/support": "Required for Laravel integration",
+      "illuminate/http": "For HTTP request handling",
+      "illuminate/console": "For command line integration",
+      "illuminate/database": "For exception handling and DB checks",
+      "symfony/http-foundation": "For response and request objects"
+    }
+}
+  
