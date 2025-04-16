@@ -1,11 +1,10 @@
 <p align="center">
     <img src="laraguard-ip-logo.png" alt="laraguard-ip Logo" style="width: 100%; max-width: 800px;" />
 </p>
-<h1 align="center">🚫 Laraguard-IP</h1>
+<h1>🚫 Laraguard-IP</h1>
 
 A powerful Laravel package to protect your application using IP-based, country-based, and spam-blacklist-based middleware.
 <p align="center">
-<a href="https://github.com/haxneeraj/laraguard-ip/actions"><img src="https://github.com/haxneeraj/laraguard-ip/workflows/tests/badge.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/haxneeraj/laraguard-ip"><img src="https://img.shields.io/packagist/dt/haxneeraj/laraguard-ip" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/haxneeraj/laraguard-ip"><img src="https://img.shields.io/packagist/v/haxneeraj/laraguard-ip" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/haxneeraj/laraguard-ip"><img src="https://img.shields.io/packagist/l/haxneeraj/laraguard-ip" alt="License"></a>
